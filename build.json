@@ -1,0 +1,7 @@
+{
+   "id" : "admin_logo",
+   "version" : "1.0",
+   "description" : "Upload a custom admin logo",
+   "categories" : ["design", "logo", "backend", "admin"],
+   "compatible_from" : "2018.3.5"
+}

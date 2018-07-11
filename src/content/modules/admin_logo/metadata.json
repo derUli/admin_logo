@@ -1,0 +1,12 @@
+{
+	"version": "1.0",
+	"source": "extend",
+	"embed": false,
+	"shy": false,
+	"main_class": "AdminLogoController",
+	"controllers": 
+	{
+		"AdminLogoController": "controllers/AdminLogoController.php"
+	},
+	"admin_permission" : "design"
+}
