@@ -11,9 +11,9 @@ $image->name = "admin_logo";
 $image->title = get_translation("admin_logo");
 echo $image->render(Settings::get("admin_logo"));
 ?>
-<p>
-	<button type="submit" class="btn btn-primary"><?php translate("save");?></button>
-</p>
+<div class="voffset2">
+	<button type="submit" class="btn btn-primary"><i class="far fa-save"></i> <?php translate("save");?></button>
+</div>
 <?php echo ModuleHelper::endForm();?>
 <?php 
 	enqueueScriptFile(ModuleHelper::buildRessourcePath("admin_logo", "js/settings.js"));
